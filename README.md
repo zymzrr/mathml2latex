@@ -8,6 +8,8 @@ Mathml各个节点参考https://developer.mozilla.org/zh-CN/docs/Web/MathML
 
 使用方法:
 下载本类，调用mml2Latex方法，传入mathml数据。返回latex结构
+里面有一些lombok类，apache commons的类，这些可根据使用者自行调整。
+如有疑问可以联系我微sanjijiji
 
 测试
 String mml = "<?xml version=\"1.0\" encoding=\"UTF-16\"?>\n" +
